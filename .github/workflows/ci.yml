@@ -204,7 +204,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            benjaminyakobi/demoone:latest
-            benjaminyakobi/demoone:${{ steps.semver.outputs.major }}
-            ghcr.io/benjaminyakobi/demoone:latest
-            ghcr.io/benjaminyakobi/demoone:${{ steps.semver.outputs.major }}
+            benjaminyakobi/space-gallery:latest
+            benjaminyakobi/space-gallery:${{ steps.semver.outputs.major }}
+            ghcr.io/benjaminyakobi/space-gallery:latest
+            ghcr.io/benjaminyakobi/space-gallery:${{ steps.semver.outputs.major }}
